@@ -41,11 +41,19 @@ st.markdown("""
     }
     .chunk-card {
         background-color: white;
+        color: #333333; /* <-- KRİTİK EKLEME: Yazı rengini koyu griye sabitledik */
         padding: 15px;
         border-radius: 10px;
         border-left: 5px solid #4CAF50;
         box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
         margin-bottom: 10px;
+    }
+    .chunk-card h4 {
+        color: #1b5e20; /* Başlıkları da koyu yeşil yaptık ki daha şık dursun */
+        margin-bottom: 5px;
+    }
+    .chunk-card p {
+        color: #333333; /* Paragraflar kesinlikle koyu renk olsun */
     }
     .highlight {
         background-color: #e8f5e9;
