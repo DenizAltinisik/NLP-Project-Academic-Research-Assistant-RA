@@ -131,7 +131,7 @@ with st.sidebar:
 st.header("🎓 Akıllı Akademik Asistan")
 st.markdown("Bu asistan, yüklediğiniz makaleleri **RAG teknolojisi** ile analiz eder, referans göstererek cevaplar.")
 
-# Veritabanı hazır değilse karşılama ekranı göster
+# db hazır değilse karşılama ekranı göster
 if not st.session_state.get("db"):
     st.info("👈 Lütfen sol panelden bir PDF yükleyin ve 'Dokümanı Analiz Et' butonuna basın.")
     
