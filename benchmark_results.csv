@@ -1,0 +1,116 @@
+﻿Model;Chunk_Size;K;Indexing_Time;Num_Chunks;Question_ID;Latency;Input_Tokens_Est;Output_Tokens_Est;Total_Tokens_Est;Answer
+all-MiniLM-L6-v2;500;3;8.097301483154297;393;1;8.418569564819336;344;71;415;Diyafram embriyolojik gelişim sürecinde septum transversum ve plevraperitonial membranlar olmak üzere, listedeki dördüncü yapı ve özefa- ile başlayan dördüncü yapı ile birlikte dört temel yapıdan köken alır. (Metin dördüncü yapının tamamını ve üçüncü yapının başlangıcını sağlamaktadır.)
+all-MiniLM-L6-v2;500;3;8.097301483154297;393;2;4.325002908706665;354;13;367;Frenik sinir, C3-C5 spinal segmentlerden köken alır.
+all-MiniLM-L6-v2;500;3;8.097301483154297;393;3;4.718232870101929;373;31;404;Vena kava 8. torasik vertebra hizasında, özefagus 10. torasik vertebra hizasında ve aort 12. torasik vertebra hizasında geçer.
+all-MiniLM-L6-v2;500;3;8.097301483154297;393;4;5.043888807296753;360;10;370;Sağlanan metinde bu bilgi bulunmamaktadır.
+all-MiniLM-L6-v2;500;3;8.097301483154297;393;5;4.935747146606445;373;4;377;Floroskopik olarak.
+all-MiniLM-L6-v2;500;3;8.097301483154297;393;6;3.7866861820220947;378;33;411;Bilateral diyafram paralizisi olan hastalar, tipik olarak supin (sırtüstü) pozisyonda kötüleşen dispne (nefes darlığı) ile başvururlar.
+all-MiniLM-L6-v2;500;3;8.097301483154297;393;7;3.9651176929473877;367;12;379;Pulmoner kökenli neoplazmın frenik sinir invazyonu.
+all-MiniLM-L6-v2;500;3;8.097301483154297;393;8;5.407423257827759;333;72;405;"Morgagni ve Larrey hernisi, diyaframın sternal ve kostal kısımlarının birleşmesinin yetersizliğinden kaynaklanan sternokostal hiyatus adı verilen üçgen şekilli bir alanda bulunur.
+
+İsimlendirme şu şekildedir:
+*   **Sol yanındaysa:** Larrey hernisi
+*   **Sağ yanındaysa:** Morgagni hernisi"
+all-MiniLM-L6-v2;500;3;8.097301483154297;393;9;9.413784742355347;288;22;310;Metinde en sık görülen hiatal herni tipi ve görülme oranı hakkında bilgi bulunmamaktadır.
+all-MiniLM-L6-v2;500;3;8.097301483154297;393;10;4.417370319366455;345;34;379;Bochdalek hernisi, plöroperitoneal kanalın kapanma kusuruna bağlı posterolateral bir defekttir ve sıklıkla çocukluk çağında ortaya çıkar.
+all-MiniLM-L6-v2;500;5;8.097301483154297;393;1;5.5953333377838135;582;39;621;Diyafram, embriyolojik gelişim sürecinde dört temel yapıdan kaynak alır. Bu yapılar: septum transversum (en önemlisi), plevraperitonial membranlar ve özefa-.
+all-MiniLM-L6-v2;500;5;8.097301483154297;393;2;5.0118067264556885;551;12;563;Frenik sinir C3-5 spinal segmentlerden köken alır.
+all-MiniLM-L6-v2;500;5;8.097301483154297;393;3;5.641179084777832;593;35;628;Vena kava 8. torasik vertebra, özefagus 10. torasik vertebra ve aort 12. torasik vertebra seviyelerinde diyaframdaki açıklıklardan geçerler.
+all-MiniLM-L6-v2;500;5;8.097301483154297;393;4;5.6082868576049805;590;29;619;Sağlanan metinde diyaframın vital kapasitenin yüzde kaçından tek başına sorumlu olduğuna dair bilgi bulunmamaktadır.
+all-MiniLM-L6-v2;500;5;8.097301483154297;393;5;6.192000150680542;605;3;608;Sniff testi.
+all-MiniLM-L6-v2;500;5;8.097301483154297;393;6;5.126538038253784;595;69;664;Bilateral diyafram paralizisi olan hastalarda supin pozisyona geçildiğinde dispne kötüleşir, dakikalar içinde takipne ve yüzeyel solunum ortaya çıkar. Ayrıca, supin pozisyonda insipirasyonla paradoksal solunum hareketi gözlenir ve progresif hipoksemi ile hiperkapni derinleşir.
+all-MiniLM-L6-v2;500;5;8.097301483154297;393;7;4.479743480682373;592;13;605;Pulmoner kökenli neoplazmın frenik sinir invazyonudur.
+all-MiniLM-L6-v2;500;5;8.097301483154297;393;8;5.543285608291626;568;75;643;Morgagni ve Larrey hernileri, ksifoid ve kostal alandan köken alan ve diyaframın santral tendonuna bağlanan kas lifleri arasındaki üçgen şeklindeki alanda (sternokostal hiyatus) görülür. Herni, sternokostal hiyatusun sol yanında ise Larrey hernisi, sağ yanında ise Morgagni hernisi olarak adlandırılır.
+all-MiniLM-L6-v2;500;5;8.097301483154297;393;9;4.0434250831604;517;19;536;En sık görülen hiatal herni tipi Tip I sliding herni olup %95 oranla görülür.
+all-MiniLM-L6-v2;500;5;8.097301483154297;393;10;6.2528603076934814;571;33;604;Bochdalek hernisi, plöroperitoneal kanalın kapanma kusuruna bağlı posterolateral bir defekttir ve sıklıkla çocukluk çağında görülür.
+all-MiniLM-L6-v2;500;8;8.097301483154297;393;1;11.649235725402832;923;40;963;"Diyafram, embriyolojik gelişim sürecinde dört temel yapıdan köken alır. Bu yapılar:
+*   Septum transversum (en önemlisi)
+*   Plevraperitonial membranlar
+*   Özefa-"
+all-MiniLM-L6-v2;500;8;8.097301483154297;393;2;5.110575199127197;898;8;906;Frenik sinir C3-5'ten köken alır.
+all-MiniLM-L6-v2;500;8;8.097301483154297;393;3;5.757291078567505;937;34;971;Vena kava 8. torasik vertebra, özefagus 10. torasik vertebra ve aort 12. torasik vertebra hizasında diyaframdaki açıklıklardan geçerler.
+all-MiniLM-L6-v2;500;8;8.097301483154297;393;4;8.145872354507446;928;84;1012;Sağlanan metinde bu bilgi bulunmamaktadır. Metin, iki taraflı diyafram paralizisi olan hastalarda, supine pozisyonda yapılan solunum fonksiyon testlerinde vital kapasitede dik pozisyona göre %50'ye varan düşüş gözlendiğini belirtmektedir. Ancak diyaframın tek başına vital kapasitenin yüzde kaçından sorumlu olduğu bilgisi verilmemiştir.
+all-MiniLM-L6-v2;500;8;8.097301483154297;393;5;6.30829119682312;947;3;950;Sniff testi.
+all-MiniLM-L6-v2;500;8;8.097301483154297;393;6;9.33729362487793;938;74;1012;Bilateral diyafram paralizisi olan hastalar supin pozisyona geçince tipik olarak kötüleşen dispne ile başvururlar. Dakikalar içerisinde takipne ve yüzeyel solunum ortaya çıkar, ayrıca inspirasyonla paradoksal solunum hareketi gözlenir. Supin pozisyonda progresif hipoksemi ve hiperkapni derinleşir.
+all-MiniLM-L6-v2;500;8;8.097301483154297;393;7;4.59123969078064;912;13;925;Pulmoner kökenli neoplazmın frenik sinir invazyonudur.
+all-MiniLM-L6-v2;500;8;8.097301483154297;393;8;6.407377004623413;914;68;982;Morgagni ve Larrey hernileri, diyaframın sternal ve kostal kısımlarının birleşmesinin yetersizliğinden kaynaklanan **sternokostal hiyatus** bölgesinde görülür. Sternokostal hiyatusun **sağ yanındaysa Morgagni hernisi**, **sol yanındaysa Larrey hernisi** olarak adlandırılır.
+all-MiniLM-L6-v2;500;8;8.097301483154297;393;9;4.418631553649902;858;19;877;En sık görülen hiatal herni tipi Tip I sliding herni olup, %95 oranla görülür.
+all-MiniLM-L6-v2;500;8;8.097301483154297;393;10;6.715948104858398;925;34;959;Bochdalek hernisi, plöroperitoneal kanalın kapanma kusuruna bağlı posterolateral bir defekttir ve sıklıkla çocukluk çağında ortaya çıkar.
+all-MiniLM-L6-v2;1000;3;4.635104656219482;184;1;4.8969502449035645;724;41;765;Diyafram, embriyolojik gelişim sürecinde dört temel yapıdan köken alır: septum transversum, plevraperitonial membranlar, özefagusun dorsal mezenteri ve vücut kasları.
+all-MiniLM-L6-v2;1000;3;4.635104656219482;184;2;4.5917017459869385;715;13;728;Frenik sinir C3-5 spinal segmentlerinden köken alır.
+all-MiniLM-L6-v2;1000;3;4.635104656219482;184;3;7.991490125656128;762;26;788;Vena kava 8. torasik vertebra, özefagus 10. torasik vertebra ve aort 12. torasik vertebra hizasında geçer.
+all-MiniLM-L6-v2;1000;3;4.635104656219482;184;4;6.20723032951355;736;10;746;Bu bilgi verilen bağlamda bulunmamaktadır.
+all-MiniLM-L6-v2;1000;3;4.635104656219482;184;5;4.070721864700317;745;16;761;Floroskopik olarak diyafram hareketinin gözlendiği “sniff” testi.
+all-MiniLM-L6-v2;1000;3;4.635104656219482;184;6;7.116329669952393;762;79;841;Bilateral diyafram paralizisi olan hastalar, supin (sırtüstü) pozisyona geçildiğinde tipik olarak kötüleşen dispne ile başvururlar. Bu pozisyonda dakikalar içerisinde takipne ve yüzeyel solunum ortaya çıkar. Ayrıca, insipirasyonla paradoksal solunum hareketi gözlenir ve progresif hipoksemi ile hiperkapni derinleşir.
+all-MiniLM-L6-v2;1000;3;4.635104656219482;184;7;9.582176208496094;731;12;743;Pulmoner kökenli neoplazmın frenik sinir invazyonu.
+all-MiniLM-L6-v2;1000;3;4.635104656219482;184;8;6.017409563064575;747;92;839;"Morgagni ve Larrey hernisi alanı, ksifoid ve kostal alandan köken alan ve diyaframın santral tendonuna bağlanan kas lifleri arasında üçgen şeklindedir. Diyaframın sternal ve kostal kısımlarının birleşmesinin yetersiz olmasından kaynaklanır.
+
+*   **Larrey hernisi:** Sternokostal hiyatusun sol yanındaysa.
+*   **Morgagni hernisi:** Sternokostal hiyatusun sağ yanındaysa."
+all-MiniLM-L6-v2;1000;3;4.635104656219482;184;9;5.835225582122803;531;25;556;Sağlanan bağlamda, en sık görülen hiatal herni tipi ve görülme oranı hakkında bilgi bulunmamaktadır.
+all-MiniLM-L6-v2;1000;3;4.635104656219482;184;10;7.152611970901489;695;42;737;Bochdalek hernisi, hemidiyaframda fokal bir şişkinlik ya da sol posteromedial alanda kitle şeklinde görülür. Çoğunlukla antenatal veya yenidoğan döneminde teşhis edilir.
+all-MiniLM-L6-v2;1000;5;4.635104656219482;184;1;5.246947526931763;1205;44;1249;Diyafram, embriyolojik gelişim sürecinde septum transversum, plevraperitonial membranlar, özefagusun dorsal mezenteri ve vücut kasları olmak üzere dört temel yapıdan köken alır.
+all-MiniLM-L6-v2;1000;5;4.635104656219482;184;2;4.67418098449707;1189;13;1202;Frenik sinir C3-5 spinal segmentlerinden köken alır.
+all-MiniLM-L6-v2;1000;5;4.635104656219482;184;3;6.363462448120117;1203;39;1242;Vena kava 8. torasik vertebra hizasında, özefagus 10. torasik vertebra hizasında ve aort 12. torasik vertebra hizasında diyaframdaki açıklıklardan geçerler.
+all-MiniLM-L6-v2;1000;5;4.635104656219482;184;4;5.631877183914185;1036;11;1047;Yaklaşık %65-80'inden tek başına sorumludur.
+all-MiniLM-L6-v2;1000;5;4.635104656219482;184;5;5.365305662155151;1201;3;1204;Sniff testi.
+all-MiniLM-L6-v2;1000;5;4.635104656219482;184;6;8.129274368286133;1234;60;1294;Bilateral diyafram paralizisi olan hastalar supin pozisyonda tipik olarak kötüleşen dispne, takipne, yüzeyel solunum ve inspirasyonla paradoksal solunum hareketi gösterirler. Ayrıca, bu pozisyonda progresif hipoksemi ve hiperkapni derinleşir.
+all-MiniLM-L6-v2;1000;5;4.635104656219482;184;7;8.27574372291565;1207;12;1219;Pulmoner kökenli neoplazmın frenik sinir invazyonu.
+all-MiniLM-L6-v2;1000;5;4.635104656219482;184;8;5.83762001991272;1227;73;1300;Morgagni hernisi ve Larrey hernisi, sternokostal hiyatusun konumuna göre isimlendirilir. Eğer açıklık diyaframın sternal ve kostal kısımlarının birleşmesinin yetersizliğinden kaynaklanan sternokostal hiyatusun sol yanında ise Larrey hernisi, sağ yanında ise Morgagni hernisi olarak adlandırılır.
+all-MiniLM-L6-v2;1000;5;4.635104656219482;184;9;5.353954553604126;1027;20;1047;En sık görülen hiatal herni tipi Tip I sliding herni olup, görülme oranı %95'tir.
+all-MiniLM-L6-v2;1000;5;4.635104656219482;184;10;8.505702257156372;1042;72;1114;Bochdalek hernisi hemidiyaframda fokal bir şişkinlik ya da sol posteromedial alanda kitle şeklinde görülür. Çoğunlukla antenatal veya yenidoğan döneminde teşhis edilir. Erişkinlerde semptomatik konjenital Bochdalek herni oldukça nadirdir ve genellikle semptomsuzdur, tanı tesadüfen konur.
+all-MiniLM-L6-v2;1000;8;4.635104656219482;184;1;6.529817819595337;1924;44;1968;Diyafram, embriyolojik gelişim sürecinde septum transversum, plevraperitonial membranlar, özefagusun dorsal mezenteri ve vücut kasları olmak üzere dört temel yapıdan köken alır.
+all-MiniLM-L6-v2;1000;8;4.635104656219482;184;2;6.033040285110474;1736;13;1749;Frenik sinir C3-C5 spinal segmentlerinden köken alır.
+all-MiniLM-L6-v2;1000;8;4.635104656219482;184;3;6.509661674499512;1930;33;1963;Vena kava 8. torasik vertebra, özefagus 10. torasik vertebra ve aort 12. torasik vertebra seviyesinde diyaframdaki açıklıklardan geçer.
+all-MiniLM-L6-v2;1000;8;4.635104656219482;184;4;6.523240089416504;1552;11;1563;Yaklaşık %65-80'inden tek başına sorumludur.
+all-MiniLM-L6-v2;1000;8;4.635104656219482;184;5;5.656575441360474;1962;27;1989;"Tek taraflı diyafram paralizisinin tanısında floroskopik olarak kullanılan doğrulayıcı test ""sniff"" testidir."
+all-MiniLM-L6-v2;1000;8;4.635104656219482;184;6;9.372992277145386;1958;48;2006;"Bilateral diyafram paralizisi olan hastalar, supin pozisyona geçildiğinde tipik olarak dispnede kötüleşme ile başvururlar; bu durumda dakikalar içerisinde takipne ve yüzeyel solunum ortaya çıkar."
+all-MiniLM-L6-v2;1000;8;4.635104656219482;184;7;9.23595142364502;1921;13;1934;Pulmoner kökenli neoplazmın frenik sinir invazyonudur.
+all-MiniLM-L6-v2;1000;8;4.635104656219482;184;8;6.728139400482178;1880;67;1947;Morgagni hernisi ve Larrey hernisi, diyaframın sternal ve kostal kısımlarının birleşmesinin yetersiz olmasından kaynaklanan sternokostal hiyatus alanında görülür. Sternokostal hiyatusun sol yanında ise Larrey hernisi, sağ yanında ise Morgagni hernisi olarak adlandırılır.
+all-MiniLM-L6-v2;1000;8;4.635104656219482;184;9;7.477501630783081;1749;20;1769;En sık görülen hiatal herni tipi Tip I sliding herni olup, %95 oranında görülür.
+all-MiniLM-L6-v2;1000;8;4.635104656219482;184;10;7.467497110366821;1693;29;1722;Bochdalek hernisi, plöroperitoneal hiatusta olan bir posterolateral defektir ve sıklıkla çocukluk çağında ortaya çıkar.
+all-MiniLM-L6-v2;2000;3;2.5107133388519287;100;1;5.164751052856445;1376;44;1420;"Diyafram embriyolojik gelişim sürecinde şu dört temel yapıdan köken alır:
+1.  Septum transversum
+2.  Plevraperitonial membranlar
+3.  Özefagusun dorsal mezenteri
+4.  Vücut kasları"
+all-MiniLM-L6-v2;2000;3;2.5107133388519287;100;2;8.92450499534607;1482;16;1498;Frenik sinir, C3, C4 ve C5 spinal kord segmentlerinden köken alır.
+all-MiniLM-L6-v2;2000;3;2.5107133388519287;100;3;6.996007442474365;1479;34;1513;Vena kava 8. torasik vertebra, özefagus 10. torasik vertebra ve aort 12. torasik vertebra seviyesinde diyaframdaki açıklıklardan geçerler.
+all-MiniLM-L6-v2;2000;3;2.5107133388519287;100;4;5.488567113876343;866;8;874;Bağlamda bu bilgi bulunmamaktadır.
+all-MiniLM-L6-v2;2000;3;2.5107133388519287;100;5;5.761703729629517;1235;3;1238;Sniff testi.
+all-MiniLM-L6-v2;2000;3;2.5107133388519287;100;6;9.206571578979492;984;62;1046;Bilateral diyafram paralizisi olan hastalar supin (sırtüstü) pozisyonda kötüleşen dispne, takipne ve yüzeyel solunum ile başvurur. Supin pozisyonda inspirasyonla paradoksal solunum hareketi gözlenir ve progresif hipoksemi ile hiperkapni derinleşir.
+all-MiniLM-L6-v2;2000;3;2.5107133388519287;100;7;6.824905157089233;1236;24;1260;Bağlamda tek taraflı diyafram paralizisinin en sık görülen nedeni hakkında bilgi bulunmamaktadır.
+all-MiniLM-L6-v2;2000;3;2.5107133388519287;100;8;7.219897508621216;1458;91;1549;"Morgagni ve Larrey hernisi, diyaframın sternal ve kostal kısımlarının birleşmesinin yetersiz olduğu, ksifoid ve kostal alandan köken alan kas lifleri arasında bulunan üçgen şeklindeki sternokostal hiyatusta görülür.
+
+*   Açıklık sternokostal hiyatusun **sol yanındaysa** **Larrey hernisi**.
+*   Açıklık sternokostal hiyatusun **sağ yanındaysa** **Morgagni hernisi**."
+all-MiniLM-L6-v2;2000;3;2.5107133388519287;100;9;4.201186895370483;774;20;794;En sık görülen hiatal herni tipi Tip I (sliding herni) olup, görülme oranı %95'tir.
+all-MiniLM-L6-v2;2000;3;2.5107133388519287;100;10;7.41083836555481;1483;61;1544;Bochdalek hernisi plöroperitoneal hiatusta yerleşir ve genellikle hemidiyaframda sol posteromedial alanda görülür. Çoğunlukla antenatal veya yenidoğan döneminde teşhis edilir ve çocukluk çağı konjenital diyafram hernilerinin %90-95'ini oluşturur.
+all-MiniLM-L6-v2;2000;5;2.5107133388519287;100;1;5.850475072860718;2059;44;2103;Diyafram, embriyolojik gelişim sürecinde septum transversum, plevraperitonial membranlar, özefagusun dorsal mezenteri ve vücut kasları olmak üzere dört temel yapıdan köken alır.
+all-MiniLM-L6-v2;2000;5;2.5107133388519287;100;2;7.237050294876099;2415;12;2427;Frenik sinir C3-5 spinal segmentlerden köken alır.
+all-MiniLM-L6-v2;2000;5;2.5107133388519287;100;3;6.489912748336792;2435;35;2470;Vena kava 8. torasik vertebra, özefagus 10. torasik vertebra ve aort 12. torasik vertebra seviyelerinde diyaframdaki açıklıklardan geçerler.
+all-MiniLM-L6-v2;2000;5;2.5107133388519287;100;4;6.393726587295532;1592;16;1608;Diyafram, vital kapasitenin yaklaşık yüzde 50'sinden sorumludur.
+all-MiniLM-L6-v2;2000;5;2.5107133388519287;100;5;4.8564612865448;1951;3;1954;Sniff testi.
+all-MiniLM-L6-v2;2000;5;2.5107133388519287;100;6;7.1440980434417725;1957;68;2025;"Bilateral diyafram paralizisi olan hastalarda supin (sırtüstü) pozisyona geçildiğinde; dispne kötüleşir, dakikalar içerisinde takipne ve yüzeyel solunum ortaya çıkar. Ayrıca, inspirasyonla paradoksal solunum hareketi gözlenir, progresif hipoksemi ve hiperkapni derinleşir."
+all-MiniLM-L6-v2;2000;5;2.5107133388519287;100;7;7.251370906829834;1946;13;1959;Pulmoner kökenli neoplazmın frenik sinir invazyonudur.
+all-MiniLM-L6-v2;2000;5;2.5107133388519287;100;8;11.458218574523926;2397;88;2485;Morgagni ve Larrey hernisi, diyaframın ksifoid ve kostal alandan köken alan ve santral tendona bağlanan kas lifleri arasındaki üçgen şeklindeki alanda bulunur. Diyaframın sternal ve kostal kısımlarının birleşmesinin yetersiz olmasından kaynaklanır. Sternokostal hiyatusun sol yanındaysa Larrey hernisi, sağ yanındaysa Morgagni hernisi olarak adlandırılır.
+all-MiniLM-L6-v2;2000;5;2.5107133388519287;100;9;6.803335428237915;1664;20;1684;En sık görülen hiatal herni tipi Tip I sliding herni olup, %95 oranında görülür.
+all-MiniLM-L6-v2;2000;5;2.5107133388519287;100;10;6.546267747879028;2094;28;2122;Bochdalek hernisi plöroperitoneal hiatusta yerleşir ve çoğunlukla antenatal veya yenidoğan döneminde teşhis edilir.
+all-MiniLM-L6-v2;2000;8;2.5107133388519287;100;1;8.5100576877594;3534;43;3577;"Diyafram embriyolojik gelişim sürecinde şu dört temel yapıdan köken alır:
+1. Septum transversum
+2. Plevraperitonial membranlar
+3. Özefagusun dorsal mezenteri
+4. Vücut kasları"
+all-MiniLM-L6-v2;2000;8;2.5107133388519287;100;2;5.676263809204102;3617;21;3638;Diyaframın innervasyonunu sağlayan frenik sinir C3-5 spinal segmentlerden köken alır.
+all-MiniLM-L6-v2;2000;8;2.5107133388519287;100;3;11.087473392486572;3082;31;3113;Vena kava 8. torasik vertebra hizasında, özefagus 10. torasik vertebra hizasında ve aort 12. torasik vertebra hizasında geçer.
+all-MiniLM-L6-v2;2000;8;2.5107133388519287;100;4;6.186077833175659;3048;18;3066;Diyafram, vital kapasitenin yaklaşık %65-80'inden tek başına sorumludur.
+all-MiniLM-L6-v2;2000;8;2.5107133388519287;100;5;5.750108480453491;3444;47;3491;Tek taraflı diyafram paralizisinin tanısı, floroskopik olarak diyafram hareketinin gözlendiği ve hastaya sert bir şekilde burnundan nefes çektirilerek yapılan “sniff” testi ile doğrulanır.
+all-MiniLM-L6-v2;2000;8;2.5107133388519287;100;6;8.55430555343628;3273;76;3349;Bilateral diyafram paralizisi olan hastalar, supin (sırtüstü) pozisyona geçildiğinde kötüleşen dispne (nefes darlığı), takipne (hızlı solunum) ve yüzeyel solunum ile başvururlar. Ayrıca, supin pozisyonda insipirasyonla paradoksal solunum hareketi gözlenir ve progresif hipoksemi ile hiperkapni derinleşir.
+all-MiniLM-L6-v2;2000;8;2.5107133388519287;100;7;12.859865665435791;3401;13;3414;Pulmoner kökenli neoplazmın frenik sinir invazyonudur.
+all-MiniLM-L6-v2;2000;8;2.5107133388519287;100;8;13.513993740081787;3685;77;3762;"Morgagni ve Larrey hernisi, ksifoid ve kostal alandan köken alan ve diyaframın santral tendonuna bağlanan kas lifleri arasındaki üçgen şeklindeki alanda görülür.
+
+İsimlendirme sternokostal hiyatusun yanına göre yapılır:
+*   Sol yanındaysa Larrey hernisi
+*   Sağ yanındaysa Morgagni hernisi olarak adlandırılır."
+all-MiniLM-L6-v2;2000;8;2.5107133388519287;100;9;9.607709646224976;2661;20;2681;En sık görülen hiatal herni tipi Tip I sliding herni olup, %95 oranında görülür.
+all-MiniLM-L6-v2;2000;8;2.5107133388519287;100;10;8.68699049949646;3073;29;3102;Bochdalek hernisi, plöroperitoneal hiatusta yerleşir ve çoğunlukla antenatal veya yenidoğan döneminde teşhis edilir.
