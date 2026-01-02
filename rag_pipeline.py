@@ -18,7 +18,7 @@ import google.generativeai as genai
 import time
 from google.api_core.exceptions import ResourceExhausted
 from PyPDF2 import PdfReader
-# ----------------------------- PDF OKUMA (METADATA İLE) -----------------------------
+# ----------------------------- PDF OKUMA -----------------------------
 def load_pdf_documents(file_obj):
     """
     PDF'i okur ve sayfa numaralarıyla birlikte bir sözlük listesi döndürür.
@@ -29,14 +29,14 @@ def load_pdf_documents(file_obj):
     for i, page in enumerate(reader.pages):
         text = page.extract_text()
         if text:
-            # Sayfa numarası 1'den başlasın diye i+1 diyoruz
+            # Sayfa numarası 1'den başlayacak
             documents.append({"page_content": text, "metadata": {"page": i + 1}})
     return documents
 
 # ----------------------------- CHUNKING (METADATA KORUYARAK) -----------------------------
 def chunk_documents(documents, chunk_size=2000, chunk_overlap=100):
     """
-    Sayfa bazlı metinleri alır, parçalar ama sayfa numarasını korur.
+    Sayfa bazlı metinleri chunklara ayırma
     """
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size, chunk_overlap=chunk_overlap
@@ -44,12 +44,12 @@ def chunk_documents(documents, chunk_size=2000, chunk_overlap=100):
     
     chunked_docs = []
     for doc in documents:
-        # Her sayfayı kendi içinde bölüyoruz ki sayfa numarası kesin olsun
+        # Her pagei kendi içinde bölüyoruz ki page no exact olsun
         chunks = splitter.split_text(doc["page_content"])
         for chunk in chunks:
             chunked_docs.append({
                 "text": chunk,
-                "metadata": doc["metadata"] # Sayfa numarasını buraya taşıyoruz
+                "metadata": doc["metadata"] # page no'yu buraya taşı
             })
     return chunked_docs
 
@@ -57,7 +57,7 @@ def chunk_documents(documents, chunk_size=2000, chunk_overlap=100):
 class FaissStore:
     def __init__(self, dim, index_path=None):
         self.dim = dim
-        self.doc_map = [] # Artık sadece text değil, {text, metadata} saklayacağız
+        self.doc_map = [] # sadece text değil text + metadata saklar
 
         if index_path and os.path.exists(index_path + ".faiss"):
             self.index = faiss.read_index(index_path + ".faiss")
@@ -84,7 +84,7 @@ class FaissStore:
 
         for idx in I[0]:
             if idx < len(self.doc_map):
-                results.append(self.doc_map[idx]) # Sözlük döndürüyoruz
+                results.append(self.doc_map[idx]) 
 
         return results
 
@@ -121,7 +121,7 @@ def rerank_chunks(query, chunks_with_metadata, top_k=3):
     
     model = get_rerank_model()
     
-    # Model sadece metinleri puanlar
+    # Model sadece textleri puanlar
     chunk_texts = [c['text'] for c in chunks_with_metadata]
     pairs = [[query, txt] for txt in chunk_texts]
     
@@ -133,7 +133,7 @@ def rerank_chunks(query, chunks_with_metadata, top_k=3):
         original_score = float(scores[i])
         normalized_score = 1 / (1 + np.exp(-original_score))
         
-        # Orijinal metadatalı objeyi alıp içine skoru ekliyoruz
+        # Orijinal metadatalı objeyi alıp içine skor ekleme
         result_item = chunks_with_metadata[i].copy()
         result_item["score"] = original_score
         result_item["norm_score"] = normalized_score
@@ -158,7 +158,7 @@ def call_gemini_api(prompt):
     return "Error: Kota aşıldı."
 
 def local_generate(prompt):
-    # Fallback (Gerekirse)
+    # Fallback (şimdilik)
     return "Local model not loaded."
 
 def generate_answer(context_texts, question):
@@ -188,16 +188,15 @@ def load_pdf_documents(file_obj, start_page=1, end_page=None):
     reader = PdfReader(file_obj)
     total_pages = len(reader.pages)
     
-    # Eğer end_page belirtilmemişse veya hatalıysa son sayfa yap
+    # Eğer end_page belirtilmemişse veya hatalıysa eof yap
     if end_page is None or end_page > total_pages:
         end_page = total_pages
         
     documents = []
     
-    # Python 0-index kullandığı için start_page-1 yapıyoruz
-    # range fonksiyonu son değeri dahil etmediği için end_page aynen kalıyor (0'dan başladığı için denk geliyor)
+    # range fonksiyonu son değeri dahil etmediği için end_page aynen kalacak
     for i in range(start_page - 1, end_page):
-        # Index sınırı kontrolü (Olası hatalara karşı)
+        # Index sınırı kontrolü
         if i >= total_pages or i < 0:
             continue
             
@@ -208,7 +207,7 @@ def load_pdf_documents(file_obj, start_page=1, end_page=None):
             
     return documents
 
-# Ayrıca (daha önce konuştuğumuz) detect_reference_page fonksiyonunun da burada olduğundan emin olun:
+# gereksiz noise avoidi için referans detection func
 def detect_reference_page(file_obj):
     """
     PDF içindeki 'References', 'Bibliography' veya 'Kaynaklar' başlıklarını arar.
@@ -220,7 +219,7 @@ def detect_reference_page(file_obj):
     
     keywords = ["references", "bibliography", "kaynaklar", "citations"]
     
-    # EMNİYET KİLİDİ: Aramaya sayfa sayısının yarısından sonra başlıyoruz.
+    # Aramaya page no'ın yarısından sonra başlar, pek güvenli değil ama şimdilik işe yarıyor
     start_search_index = int(total_pages * 0.5) 
     
     for i in range(start_search_index, total_pages):
